@@ -134,7 +134,7 @@ nav{
     border-radius: 50px solid;
 }
 #upBtn:hover{
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
     padding: 5px;
     background-color: #9b27b033;
     transition: ease-in-out;
@@ -147,13 +147,16 @@ nav{
     transform: rotate(180deg);
 }
 #downBtn:hover{
-    transform: scale(1.2) ;
+    /* transform: scale(1.2); */
     transition: ease-in-out;
     padding: 5px;
+    transform: rotate(180deg);
     background-color: #9b27b033;
 
 }
 .overlay{
+    left: 0;
+    top: 0;
     width: 0;
     height: 0;
     border-top: 500px solid #fff;
@@ -161,6 +164,8 @@ nav{
     border-bottom: 500px solid #fff;
     border-left: 500px solid #fff;
     position: absolute;
-    left: 0;
-    top: 0;
+}
+.button{
+    border: 5px solid #9b27b02c;
+    border-radius: 50% ;
 }
